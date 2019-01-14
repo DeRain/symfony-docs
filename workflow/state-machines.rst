@@ -9,7 +9,7 @@ of a `Petri net`_. By adding further restrictions you can get a state machine.
 The most important one being that a state machine cannot be in more than
 one place simultaneously. It is also worth noting that a workflow does not
 commonly have cyclic path in the definition graph, but it is common for a state
-machine.
+machine. 
 
 Example of a State Machine
 --------------------------
@@ -19,6 +19,10 @@ tests on Travis. When this is finished, the pull request is in the "review"
 state, where contributors can require changes, reject or accept the
 pull request. At any time, you can also "update" the pull request, which
 will result in another Travis run.
+
+Multiple states
+---------------
+State Machine allows to transfer from multiple states to other single state, as for Workflow `Petri net`_ implementation you need to be in all `from` states simultaneously.
 
 .. image:: /_images/components/workflow/pull_request.png
 
