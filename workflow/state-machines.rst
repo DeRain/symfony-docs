@@ -20,6 +20,10 @@ state, where contributors can require changes, reject or accept the
 pull request. At any time, you can also "update" the pull request, which
 will result in another Travis run.
 
+Multiple states
+---------------
+State Machine allows to transfer from multiple states to other single state, as for Workflow `Petri net`_ implementation you need to be in all `from` states simultaneously.
+
 .. image:: /_images/components/workflow/pull_request.png
 
 Below is the configuration for the pull request state machine.
